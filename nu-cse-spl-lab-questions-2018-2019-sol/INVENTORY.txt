@@ -1,0 +1,5 @@
+Item Name	Number	Price	Quantity
+ AAA-1	 	 123	 15.55	 150
+ BBB-2	 	 125	 36.12	 175
+ CCC-3	 	 527	 32.15	 115
+

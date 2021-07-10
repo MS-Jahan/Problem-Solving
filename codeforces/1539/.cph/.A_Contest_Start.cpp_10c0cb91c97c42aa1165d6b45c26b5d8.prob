@@ -1,0 +1,1 @@
+{"name":"Local: A_Contest_Start","url":"/mnt/728A4CE38A4CA607/Problem Solving/codeforces/1539/A_Contest_Start.cpp","tests":[{"id":1624186175702,"input":"4\n4 2 5\n3 1 2\n3 3 10","output":"5\n3\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/728A4CE38A4CA607/Problem Solving/codeforces/1539/A_Contest_Start.cpp","group":"local","local":true}
