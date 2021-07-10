@@ -22,7 +22,7 @@ for extension in fileextensions:
 # for files without extension (i.e. binary file in linux)
 result = list(Path(".").glob('**/*'))
 for item in result:
-    if "." not in str(item.name) and item.is_dir() == False:
+    if "." not in str(item.name) and item.is_dir() == False and ".git" not in str(item.absolute()):
         try:
             temp = item.absolute()
             item.unlink()
@@ -40,3 +40,4 @@ else:
     for item in deletedFiles:
         print(str(i) + ". " + str(item))
         i += 1
+
